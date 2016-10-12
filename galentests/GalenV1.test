@@ -1,0 +1,14 @@
+@@ set
+  domain http://example.com/
+
+  
+@@ parameterized
+  | deviceName | tags      | size     |
+  | Mobile     | mobile    | 320x600  |
+  | Tablet     | tablet    | 640x480  |
+  | Desktop    | desktop   | 1024x800 |
+
+  
+Check ${domain} on ${deviceName}
+  ${domain} ${size}
+    check specs/GalenV1.gspec --include "${tags}"
