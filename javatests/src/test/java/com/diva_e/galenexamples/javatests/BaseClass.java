@@ -14,8 +14,8 @@ import static java.util.Arrays.asList;
 
 public abstract class BaseClass extends GalenJUnitTestBase {
 
-	private final String url = "http://example.com";
-	private final String pathToSpecsFolder = "/specs";
+	private final String url = "http://localhost:80/index.html";
+	private final String pathToSpecsFolder = "/specs/";
 	
 	@Parameter
 	public Device device;
@@ -24,7 +24,7 @@ public abstract class BaseClass extends GalenJUnitTestBase {
 	public static Iterable<Object[]> devices() {
 		return Arrays.asList(new Object[][] { 
 			{ new Device("Mobile",  320, 600,  asList("mobile") ) },
-			{ new Device("Tablet",  640, 480,  asList("tablet") ) },
+			{ new Device("Tablet",  800, 576,  asList("tablet") ) },
 			{ new Device("Desktop", 1024, 800, asList("desktop") ) }
 		});
 	}

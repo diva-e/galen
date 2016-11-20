@@ -1,5 +1,9 @@
 # Galen Example #
 
+## Setup ##
+Copy website/index.html to your local webserver, to make it accessible at http://localhost:80/index.html
+
+
 ## Galen Syntax ##
  > ### How to install Galen ###
  > 
@@ -16,4 +20,5 @@
  >
  > cd javatests
  > mvn test
-  
+
+ 
