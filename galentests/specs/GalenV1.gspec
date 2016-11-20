@@ -1,9 +1,0 @@
-@objects
-  container     css      div
-
-= container =
-  container:
-    centered horizontally inside viewport 
-
-
-
