@@ -1,5 +1,9 @@
 # Created by https://www.gitignore.io/api/eclipse,java
 
+
+reports/
+
+
 ### Eclipse ###
 
 .metadata
@@ -79,3 +83,6 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+
+### Gulp ###
+node_modules/

@@ -1,0 +1,45 @@
+@objects
+  container       css      .container
+  header          id       header-row
+  header_logo     id       image
+  header_input    id       input
+  content         id       content-row
+  content_col1    id       col-1
+  content_col2    id       col-2
+  content_col3    id       col-3
+
+= container =
+  container:
+    centered horizontally inside viewport
+
+
+= header =
+  header:
+    contains header_logo, header_input
+
+  @on desktop, tablet
+    header_input:
+      right-of header_logo
+      aligned horizontally centered header_logo 1px
+
+  @on mobile
+    header_input:
+      below header_logo
+
+= content =
+  content:
+    contains content_col1, content_col2
+
+  @on desktop, tablet
+    content_col1:
+      left-of content_col2
+#      aligned horizontally top  content_col2
+    content_col2:
+      left-of content_col3
+#      aligned horizontally top  content_col3
+
+  @on mobile
+    content_col1:
+      above content_col2
+    content_col2:
+      above content_col3
