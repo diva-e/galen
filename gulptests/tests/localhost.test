@@ -4,7 +4,6 @@
 
 @@ parameterized
   | browser |
-  ## for gulp-tests, add selenium to browser
   | firefox |
 
 
@@ -17,4 +16,4 @@
 
 Check ${domain} on ${deviceName}
   selenium ${browser} ${domain} ${size}
-    check specs/localhost.gspec --include ${tags}
+    check specs/localhost.gspec --include "${tags}"
