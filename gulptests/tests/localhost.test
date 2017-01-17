@@ -9,9 +9,8 @@
 
 @@ parameterized
   | deviceName | tags      | size     |
-  | Mobile     | mobile    | 320x600  |
-  | Tablet     | tablet    | 800x576  |
-  | Desktop    | desktop   | 1024x800 |
+  | Desktop    | desktop   | 1024x768 |
+  | Mobile     | mobile    | 700x1000 |
 
 
 Check ${domain} on ${deviceName}
