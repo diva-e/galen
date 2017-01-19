@@ -9,11 +9,11 @@
   <name>javatests</name>
 
   <dependencies>
-	<dependency>
-		<groupId>com.galenframework</groupId>
-		<artifactId>galen-java-support</artifactId>
-		<version>2.2.4</version>
-	</dependency>
+    <dependency>
+      <groupId>com.galenframework</groupId>
+      <artifactId>galen-java-support</artifactId>
+      <version>2.2.4</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
