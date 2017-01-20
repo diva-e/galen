@@ -24,6 +24,7 @@ npm install -g galenframework-cli
  
 ### How to execute tests
 
+
 ```
 cd galentests
 galen test localhost.test --htmlreport reports
